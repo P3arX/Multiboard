@@ -6,48 +6,6 @@
              xmlns:local="clr-namespace:MultiboardClient"
              StartupUri="Windows/AuthenticationWindow.xaml">
     <Application.Resources>
-        <!-- STYLES -->
-        <Style TargetType="Border" x:Name="LoginWindowStyle">
-            <Setter Property="CornerRadius" Value="10" />
-        </Style>
-        
-        <Style TargetType="TextBox" x:Name="SingleLineInputFieldStyle">
-            <Setter Property="BorderBrush" Value="{DynamicResource LightBlueBrush}" />
-            <Setter Property="BorderThickness" Value="2" />
-            <Setter Property="MaxLength" Value="15" />
-            <Setter Property="HorizontalContentAlignment" Value="Left" />
-            <Setter Property="VerticalAlignment" Value="Center" />
-            <Style.Triggers>
-                <Trigger Property="IsFocused" Value="True">
-                    <Setter Property="BorderBrush" Value="{DynamicResource LightBlueBrush}" />
-                </Trigger>
-            </Style.Triggers>
-        </Style>
-        
-        <Style TargetType="PasswordBox" x:Name="PasswordBoxStyle">
-            <Setter Property="BorderBrush" Value="{DynamicResource LightBlueBrush}" />
-            <Setter Property="BorderThickness" Value="2" />
-            <Setter Property="MaxLength" Value="10" />
-            <Setter Property="HorizontalContentAlignment" Value="Left" />
-            <Setter Property="VerticalAlignment" Value="Center" />
-            <Style.Triggers>
-                <Trigger Property="IsFocused" Value="True">
-                    <Setter Property="BorderBrush" Value="{DynamicResource LightBlueBrush}" />
-                </Trigger>
-            </Style.Triggers>
-        </Style>
-
-        <!-- COLORS & BRUSHES -->
-        <SolidColorBrush x:Key="DarkBlueBrush" Color="{DynamicResource DarkBlue}" />
-        <Color x:Key="DarkBlue" R="64" G="89" B="173" A="255" />
-        <SolidColorBrush x:Key="LightBlueBrush" Color="{DynamicResource LightBlue}" />
-        <Color x:Key="LightBlue" R="107" G="154" B="196" A="255" />
-        <SolidColorBrush x:Key="LightGreenBrush" Color="{DynamicResource LightGreen}" />
-        <Color x:Key="LightGreen" R="151" G="216" B="196" A="255" />
-        <SolidColorBrush x:Key="LightGrayBrush" Color="{DynamicResource LightGray}" />
-        <Color x:Key="LightGray" R="239" G="242" B="241" A="255" />
-        <SolidColorBrush x:Key="YellowBrush" Color="{DynamicResource Yellow}" />
-        <Color x:Key="Yellow" R="244" G="185" B="66" A="255" />
-        
+        <ResourceDictionary Source="Resources/Styles.xaml" />
     </Application.Resources>
 </Application>

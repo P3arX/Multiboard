@@ -5,31 +5,30 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MultiboardClient.Windows"
         mc:Ignorable="d"
-        Title="Multiboard" Height="350" Width="400" WindowStartupLocation="CenterScreen" AllowsTransparency="True"
-        ResizeMode="CanMinimize" WindowStyle="None" Background="{DynamicResource DarkBlueBrush}">
-    <Grid>
-        <StackPanel Orientation="Vertical" VerticalAlignment="Center" Margin="0, 0, 0, 30">
-            <!-- Title -->
-            <TextBlock HorizontalAlignment="Center" Margin="20" FontSize="30" Text="multiBoard" Foreground="{DynamicResource YellowBrush}" />
+        Title="Multiboard" Height="350" Width="300" WindowStartupLocation="CenterScreen" AllowsTransparency="True"
+        ResizeMode="CanMinimize" WindowStyle="None" Background="Transparent">
+    <Border Style="{DynamicResource LoginWindowStyle}">
+        <Grid>
+            <StackPanel Orientation="Vertical" VerticalAlignment="Center" Margin="0, 0, 0, 30">
+                <!-- Title -->
+                <TextBlock HorizontalAlignment="Center" Margin="20" FontWeight="Bold" FontSize="30" Text="multiBoard" Foreground="{DynamicResource YellowBrush}" />
 
-            <!-- Username -->
-            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Margin="20, 0, 20, 5" Orientation="Vertical">
-                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20" Text="Username"
-                               Margin="10" Foreground="{DynamicResource LightGrayBrush}" />
-                <TextBox Style="{DynamicResource SingleLineInputField}" HorizontalAlignment="Center" Height="25" Width="150"
-                             AcceptsReturn="False" Padding="2"
-                             MaxLength="15"/>
+                <!-- Username -->
+                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Margin="20, 0, 20, 5" Orientation="Vertical">
+                    <TextBlock HorizontalAlignment="Center" FontSize="20" Text="Username" Margin="10" Foreground="{DynamicResource LightGrayBrush}" />
+                    <TextBox Style="{DynamicResource SingleLineInputFieldStyle}" HorizontalAlignment="Center" Height="25" Width="150"
+                                     AcceptsReturn="False"/>
+                </StackPanel>
+
+                <!-- Password -->
+                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Margin="20, 0, 20, 20" Orientation="Vertical">
+                    <TextBlock HorizontalAlignment="Center" FontSize="20" Text="Password" Margin="10" Foreground="{DynamicResource LightGrayBrush}" />
+                    <PasswordBox Style="{DynamicResource PasswordBoxStyle}" HorizontalAlignment="Center" Height="25" Width="150" />
+                </StackPanel>
+                
+                <!-- Login button -->
+                <Button Style="{DynamicResource ButtonBaseStyle}" Content="Login" Width="100" Height="40" />
             </StackPanel>
-
-            <!-- Password -->
-            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Margin="20, 0, 20, 20" Orientation="Vertical">
-                <TextBlock HorizontalAlignment="Center" FontSize="20" Text="Password"
-                               Margin="10" Foreground="{DynamicResource LightGrayBrush}" />
-                <PasswordBox Style="{DynamicResource PasswordBoxStyle}" HorizontalAlignment="Center" Height="25" Width="150"
-                               Padding="2" />
-            </StackPanel>
-
-            <Button Content="Login" Width="100" Height="40" />
-        </StackPanel>
-    </Grid>
+        </Grid>
+    </Border>
 </Window>

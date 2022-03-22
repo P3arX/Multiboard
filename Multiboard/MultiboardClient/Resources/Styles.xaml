@@ -1,0 +1,83 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- STYLES -->
+    <Style TargetType="{x:Type Border}" x:Key="LoginWindowStyle">
+        <Style.Setters>
+            <Setter Property="CornerRadius" Value="10" />
+            <Setter Property="Background" Value="{DynamicResource DarkBlueBrush}" />
+        </Style.Setters>
+    </Style>
+
+    <Style TargetType="{x:Type TextBox}" x:Key="SingleLineInputFieldStyle">
+        <Setter Property="MaxLength" Value="15" />
+        <Setter Property="HorizontalContentAlignment" Value="Left" />
+        <Setter Property="VerticalContentAlignment" Value="Center" />
+        <Setter Property="Padding" Value="2" />
+        <Setter Property="Template" Value="{DynamicResource UsernameTemplate}" />
+    </Style>
+
+    <Style TargetType="{x:Type PasswordBox}" x:Key="PasswordBoxStyle">
+        <Setter Property="MaxLength" Value="15" />
+        <Setter Property="HorizontalContentAlignment" Value="Left" />
+        <Setter Property="VerticalContentAlignment" Value="Center" />
+        <Setter Property="Padding" Value="2" />
+        <Setter Property="Template" Value="{DynamicResource PasswordBoxTemplate}" />
+        <Style.Resources>
+            <Style TargetType="{x:Type Border}">
+                <Setter Property="CornerRadius" Value="5" />
+                <Setter Property="BorderBrush" Value="Transparent" />
+            </Style>
+        </Style.Resources>
+    </Style>
+
+    <Style TargetType="{x:Type Button}" x:Key="ButtonBaseStyle">
+        <Style.Setters>
+            <Setter Property="FontSize" Value="15" />
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="Background" Value="{DynamicResource BlueBrush}" />
+            <Setter Property="Foreground" Value="{DynamicResource LightGrayBrush}" />
+            <Setter Property="BorderThickness" Value="0" />
+            <Setter Property="BorderBrush" Value="Transparent" />
+        </Style.Setters>
+        <Style.Resources>
+            <Style TargetType="{x:Type Border}">
+                <Setter Property="CornerRadius" Value="5" />
+                <Setter Property="BorderBrush" Value="Transparent" />
+            </Style>
+        </Style.Resources>
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Foreground" Value="{DynamicResource DarkBlueBrush}" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <!-- CONTENT TEMPLATES -->
+    <ControlTemplate x:Key="UsernameTemplate" TargetType="{x:Type TextBox}">
+        <Border Background="{TemplateBinding Background}" 
+            x:Name="Bd" BorderBrush="Transparent" CornerRadius="5">
+            <ScrollViewer Name="PART_ContentHost" SnapsToDevicePixels="{TemplateBinding UIElement.SnapsToDevicePixels}" />
+        </Border>
+
+    </ControlTemplate>
+
+    <ControlTemplate x:Key="PasswordBoxTemplate" TargetType="{x:Type PasswordBox}">
+        <Border Background="{TemplateBinding Background}" 
+            x:Name="Bd" BorderBrush="Transparent" CornerRadius="5">
+            <ScrollViewer Name="PART_ContentHost" SnapsToDevicePixels="{TemplateBinding UIElement.SnapsToDevicePixels}" />
+        </Border>
+    </ControlTemplate>
+
+    <!-- COLORS & BRUSHES -->
+    <SolidColorBrush x:Key="DarkBlueBrush" Color="{DynamicResource DarkBlue}" />
+    <Color x:Key="DarkBlue" R="26" G="44" B="98" A="255" />
+    <SolidColorBrush x:Key="BlueBrush" Color="{DynamicResource CustomBlue}" />
+    <Color x:Key="CustomBlue" R="46" G="89" B="192" A="255" />
+    <SolidColorBrush x:Key="LightBlueBrush" Color="{DynamicResource LightBlue}" />
+    <Color x:Key="LightBlue" R="133" G="222" B="255" A="255" />
+    <SolidColorBrush x:Key="LightGrayBrush" Color="{DynamicResource LightGray}" />
+    <Color x:Key="LightGray" R="239" G="242" B="241" A="255" />
+    <SolidColorBrush x:Key="YellowBrush" Color="{DynamicResource Yellow}" />
+    <Color x:Key="Yellow" R="244" G="185" B="66" A="255" />
+</ResourceDictionary>

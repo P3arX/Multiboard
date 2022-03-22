@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e74aa476-b80d-4b28-9953-3390cf70fc11": {
+      "ProjectGuid": "e74aa476-b80d-4b28-9953-3390cf70fc11",
+      "DisplayName": "MultiboardClient",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

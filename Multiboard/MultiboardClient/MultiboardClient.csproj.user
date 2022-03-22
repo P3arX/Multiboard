@@ -15,6 +15,9 @@
     <Page Update="Resources\ApplicationTexts.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Resources\Styles.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Windows\AuthenticationWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
