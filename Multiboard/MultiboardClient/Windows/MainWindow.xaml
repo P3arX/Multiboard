@@ -5,8 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MultiboardClient"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="multiBoard v0.1" WindowStartupLocation="CenterScreen" Height="450" Width="800"
+        Background="{DynamicResource DarkBlueBrush}" ResizeMode="NoResize" WindowStyle="None">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition MaxWidth="1920" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="100" />
+            <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
 
+        <!-- Window controlling -->
+        <Button Style="{DynamicResource WindowControlButtonStyle}" Click="CloseApp">
+            <Path Data="{StaticResource CloseIcon}" />
+        </Button>
     </Grid>
 </Window>

@@ -40,7 +40,6 @@ namespace MultiboardClient.Windows
 
             else
                 ErrorTextBlock.Text = "Invalid credentials.";
-
         }
     }
 }

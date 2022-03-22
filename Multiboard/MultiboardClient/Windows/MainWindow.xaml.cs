@@ -23,6 +23,16 @@ namespace MultiboardClient
         public MainWindow()
         {
             InitializeComponent();
+            this.Width = SystemParameters.WorkArea.Width;
+            this.Height = SystemParameters.WorkArea.Height;
+            this.Left = 0;
+            this.Top = 0;
+            this.WindowState = WindowState.Normal;
+        }
+
+        public void CloseApp(object obj, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
         }
     }
 }
