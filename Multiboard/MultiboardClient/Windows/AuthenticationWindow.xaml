@@ -9,25 +9,28 @@
         ResizeMode="CanMinimize" WindowStyle="None" Background="Transparent">
     <Border Style="{DynamicResource LoginWindowStyle}">
         <Grid>
-            <StackPanel Orientation="Vertical" VerticalAlignment="Center" Margin="0, 0, 0, 30">
+            <StackPanel Orientation="Vertical" VerticalAlignment="Center" Margin="0, 0, 0, 15">
                 <!-- Title -->
                 <TextBlock HorizontalAlignment="Center" Margin="20" FontWeight="Bold" FontSize="30" Text="multiBoard" Foreground="{DynamicResource YellowBrush}" />
 
                 <!-- Username -->
                 <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Margin="20, 0, 20, 5" Orientation="Vertical">
                     <TextBlock HorizontalAlignment="Center" FontSize="20" Text="Username" Margin="10" Foreground="{DynamicResource LightGrayBrush}" />
-                    <TextBox Style="{DynamicResource SingleLineInputFieldStyle}" HorizontalAlignment="Center" Height="25" Width="150"
+                    <TextBox Name="UsernameTextBox" Style="{DynamicResource SingleLineInputFieldStyle}" HorizontalAlignment="Center" Height="25" Width="150"
                                      AcceptsReturn="False"/>
                 </StackPanel>
 
                 <!-- Password -->
                 <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Margin="20, 0, 20, 20" Orientation="Vertical">
                     <TextBlock HorizontalAlignment="Center" FontSize="20" Text="Password" Margin="10" Foreground="{DynamicResource LightGrayBrush}" />
-                    <PasswordBox Style="{DynamicResource PasswordBoxStyle}" HorizontalAlignment="Center" Height="25" Width="150" />
+                    <PasswordBox Name="PasswordTextBox" Style="{DynamicResource PasswordBoxStyle}" HorizontalAlignment="Center" Height="25" Width="150"/>
                 </StackPanel>
                 
                 <!-- Login button -->
-                <Button Style="{DynamicResource ButtonBaseStyle}" Content="Login" Width="100" Height="40" />
+                <Button Name="LoginButton" Style="{DynamicResource ButtonBaseStyle}" Content="Login" Width="100" Height="40"
+                        Click="LoginButtonClick"/>
+                <TextBlock Name="ErrorTextBlock" HorizontalAlignment="Center" Margin="0, 10, 0, 0" TextAlignment="Center"
+                           Foreground="{DynamicResource YellowBrush}" FontSize="15" TextWrapping="WrapWithOverflow"/>
             </StackPanel>
         </Grid>
     </Border>
