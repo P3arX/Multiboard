@@ -1,0 +1,5 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Multiboard/MultiboardClient/obj/Release/net6.0-windows/Windows/MainWindow.g.i.cs
