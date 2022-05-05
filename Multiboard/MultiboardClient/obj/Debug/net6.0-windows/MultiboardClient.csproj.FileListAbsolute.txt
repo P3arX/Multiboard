@@ -24,3 +24,4 @@ C:\Users\kollaral\source\repos\Multiboard\Multiboard\MultiboardClient\obj\Debug\
 C:\Users\kollaral\source\repos\Multiboard\Multiboard\MultiboardClient\obj\Debug\net6.0-windows\Resources\ApplicationTexts.baml
 C:\Users\kollaral\source\repos\Multiboard\Multiboard\MultiboardClient\obj\Debug\net6.0-windows\Resources\Styles.baml
 C:\Users\kollaral\source\repos\Multiboard\Multiboard\MultiboardClient\obj\Debug\net6.0-windows\App.baml
+C:\Users\kollaral\source\repos\Multiboard\Multiboard\MultiboardClient\obj\Debug\net6.0-windows\MultiboardClient_Content.g.cs

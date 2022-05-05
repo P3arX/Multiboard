@@ -5,6 +5,11 @@
       "ProjectGuid": "e74aa476-b80d-4b28-9953-3390cf70fc11",
       "DisplayName": "MultiboardClient",
       "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
     }
   },
   "NextColorIndex": 1

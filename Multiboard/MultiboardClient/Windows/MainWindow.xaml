@@ -18,8 +18,6 @@
         </Grid.RowDefinitions>
 
         <!-- Window controlling -->
-        <Button Style="{DynamicResource WindowControlButtonStyle}" Click="CloseApp">
-            <Path Data="{StaticResource CloseIcon}" />
-        </Button>
+        <Button Style="{DynamicResource WindowControlButtonStyle}" Click="CloseApp" Content="{StaticResource CloseIcon}" />
     </Grid>
 </Window>

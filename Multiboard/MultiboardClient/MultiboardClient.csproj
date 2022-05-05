@@ -9,21 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Resources\Images\close_icon.svg" />
-    <None Remove="Resources\Images\minimize_icon.svg" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Content Include="hnet.com-image.ico" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Resource Include="Resources\Images\close_icon.svg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Resources\Images\minimize_icon.svg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
   </ItemGroup>
 
 </Project>
