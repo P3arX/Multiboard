@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "6FuQt0IwPrg/XQaI1xMeWuDe8NLUbZ/hGCW8l+1HO4lO905XegMcP8kGlZCZKu7AT76Ftnyk9YQNV6/xMU9ZxA==",
+  "dgSpecHash": "VeGwlFOpZA6auwS2ChjC2GaX63YxX45YVHTLQkfG668lxSvxQcbkvsLLCckuTPmjLAISiFBa9Ewl5xwhYFfkUg==",
   "success": true,
   "projectFilePath": "C:\\Users\\kollaral\\source\\repos\\Multiboard\\Multiboard\\MultiboardClient\\MultiboardClient.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\kollaral\\.nuget\\packages\\microsoft.toolkit.mvvm\\7.1.2\\microsoft.toolkit.mvvm.7.1.2.nupkg.sha512"
+  ],
   "logs": []
 }

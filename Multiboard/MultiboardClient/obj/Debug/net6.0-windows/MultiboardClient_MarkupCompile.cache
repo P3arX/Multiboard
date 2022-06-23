@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\kollaral\source\repos\Multiboard\Multiboard\MultiboardClient\App.xaml
-4595941981
+4-337783869
 1-1891897406
-8-1420736075
-194-164764702
-Resources\ApplicationTexts.xaml;Resources\Styles.xaml;Windows\AuthenticationWindow.xaml;Windows\MainWindowView.xaml;
+10844695310
+195275301200
+Resources\ApplicationTexts.xaml;Resources\Styles.xaml;Views\MainWindowView.xaml;Views\Windows\AuthenticationWindow.xaml;
 
 False
 

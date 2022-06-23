@@ -5,11 +5,9 @@ C:\Users\kollaral\source\repos\Multiboard\Multiboard\MultiboardClient\bin\Debug\
 C:\Users\kollaral\source\repos\Multiboard\Multiboard\MultiboardClient\bin\Debug\net6.0-windows\ref\MultiboardClient.dll
 C:\Users\kollaral\source\repos\Multiboard\Multiboard\MultiboardClient\bin\Debug\net6.0-windows\MultiboardClient.pdb
 C:\Users\kollaral\source\repos\Multiboard\Multiboard\MultiboardClient\obj\Debug\net6.0-windows\MultiboardClient.csproj.AssemblyReference.cache
-C:\Users\kollaral\source\repos\Multiboard\Multiboard\MultiboardClient\obj\Debug\net6.0-windows\Windows\AuthenticationWindow.g.cs
 C:\Users\kollaral\source\repos\Multiboard\Multiboard\MultiboardClient\obj\Debug\net6.0-windows\App.g.cs
 C:\Users\kollaral\source\repos\Multiboard\Multiboard\MultiboardClient\obj\Debug\net6.0-windows\MultiboardClient_MarkupCompile.cache
 C:\Users\kollaral\source\repos\Multiboard\Multiboard\MultiboardClient\obj\Debug\net6.0-windows\MultiboardClient_MarkupCompile.lref
-C:\Users\kollaral\source\repos\Multiboard\Multiboard\MultiboardClient\obj\Debug\net6.0-windows\Windows\AuthenticationWindow.baml
 C:\Users\kollaral\source\repos\Multiboard\Multiboard\MultiboardClient\obj\Debug\net6.0-windows\MultiboardClient.g.resources
 C:\Users\kollaral\source\repos\Multiboard\Multiboard\MultiboardClient\obj\Debug\net6.0-windows\MultiboardClient.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\kollaral\source\repos\Multiboard\Multiboard\MultiboardClient\obj\Debug\net6.0-windows\MultiboardClient.AssemblyInfoInputs.cache
@@ -23,5 +21,9 @@ C:\Users\kollaral\source\repos\Multiboard\Multiboard\MultiboardClient\obj\Debug\
 C:\Users\kollaral\source\repos\Multiboard\Multiboard\MultiboardClient\obj\Debug\net6.0-windows\Resources\Styles.baml
 C:\Users\kollaral\source\repos\Multiboard\Multiboard\MultiboardClient\obj\Debug\net6.0-windows\App.baml
 C:\Users\kollaral\source\repos\Multiboard\Multiboard\MultiboardClient\obj\Debug\net6.0-windows\MultiboardClient_Content.g.cs
-C:\Users\kollaral\source\repos\Multiboard\Multiboard\MultiboardClient\obj\Debug\net6.0-windows\Windows\MainWindowView.g.cs
-C:\Users\kollaral\source\repos\Multiboard\Multiboard\MultiboardClient\obj\Debug\net6.0-windows\Windows\MainWindowView.baml
+C:\Users\kollaral\source\repos\Multiboard\Multiboard\MultiboardClient\bin\Debug\net6.0-windows\Microsoft.Toolkit.Mvvm.dll
+C:\Users\kollaral\source\repos\Multiboard\Multiboard\MultiboardClient\obj\Debug\net6.0-windows\Views\MainWindowView.g.cs
+C:\Users\kollaral\source\repos\Multiboard\Multiboard\MultiboardClient\obj\Debug\net6.0-windows\Views\Windows\AuthenticationWindow.g.cs
+C:\Users\kollaral\source\repos\Multiboard\Multiboard\MultiboardClient\obj\Debug\net6.0-windows\Views\MainWindowView.baml
+C:\Users\kollaral\source\repos\Multiboard\Multiboard\MultiboardClient\obj\Debug\net6.0-windows\Views\Windows\AuthenticationWindow.baml
+C:\Users\kollaral\source\repos\Multiboard\Multiboard\MultiboardClient\obj\Debug\net6.0-windows\MultiboardClient.csproj.CopyComplete

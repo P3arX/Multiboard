@@ -7,7 +7,7 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="Windows\AuthenticationWindow.xaml.cs">
+    <Compile Update="Views\Windows\AuthenticationWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -18,10 +18,10 @@
     <Page Update="Resources\Styles.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Windows\AuthenticationWindow.xaml">
+    <Page Update="Views\Windows\AuthenticationWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Windows\MainWindowView.xaml">
+    <Page Update="Views\MainWindowView.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
