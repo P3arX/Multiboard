@@ -21,7 +21,7 @@
     <Page Update="Windows\AuthenticationWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Windows\MainWindow.xaml">
+    <Page Update="Windows\MainWindowView.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
